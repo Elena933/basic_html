@@ -1,162 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brand Shop product</title>
+    <title>Product</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700;900&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9e810049d8.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-    <header class="header">
-        <div class="wrap header-wrap">
-            <div class="header-left">
-                
-                    <a href="#"><img class="logo" src="img/Group2.png" alt="logo"></a>
-                    <a href="#"><img class="search" src="img/src.png" alt="search"></a>
-    
-            </div>
-            <div class="header-right">
-                
-                    <a href="#"><img class="menu" src="img/menu.png" alt="menu"></a>
-                    <a href="#"><img class="info" src="img/person.png" alt="person"></a>
-                    <a href="#"><img class="cart-icon" src="img/cart.png" alt="cart">  
-                    <sup class="circle">5</sup>
-                     </a>
-                
-            </div>
-        </div>    
-            
-        </header>
-    
-        <section class="top">
-            <div class="wrap top-wrap">
-                <div class="top-left">
-                    <h5 class="new arw">NEW ARRIVALS </h5>
-                    
-                </div>
-                <div class="top-right">
-                    <ul>
-                        <li> <a class="menu-right" href ="#"> HOME /</a></li>
-                        <li><a class="menu-right" href = "#"> MEN /</a></li>
-                        <li><a class="menu-right" href ="#"><span class="arr">NEW ARRIVALS</span></a></li>
+    <header class="header center">
+        <div class="header__left">
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <img class="header__search" src="images/search.png" alt="search">
+        </div>
+        <div class="header__right">
+            <input type="checkbox" id="menu">
+            <label for="menu"><img class="drop__menu" src="images/menu (4).png" alt="menu"></label>
+            <div class="drop">
+                <nav class="nav-tion">
+                    <label class="icon-close" for="menu">x</label>
+                    <p class="nav-title">MENU</p>
+                    <p class="nav-heading">MAN</p>
+                    <ul class="menu-list">
+                        <li class="list_s"><a href="#" class="nav-link">Accessories</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">Bags</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">Denim</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">T-Shirts</a></li>
                     </ul>
+                    <p class="nav-heading">WOMAN</p>
+                    <ul class="menu-list">
+                        <li class="list_s"><a href="#" class="nav-link">Accessories</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">Jackets & Coats</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">Polos</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">T-Shirts</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">Shirts</a></li>
+                    </ul>
+                    <p class="nav-heading">KIDS</p>
+                    <ul class="menu-list">
+                        <li class="list_s"><a href="#" class="nav-link">Accessories</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">Jackets & Coats</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">Polos</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">T-Shirts</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">Shirts</a></li>
+                        <li class="list_s"><a href="#" class="nav-link">Bags</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <img src="images/account.png" alt="account">
+            <a href="cart.html"><img src="images/cart (2).png" alt="cart"></a>
+        </div>
+    </header>
+    <section class="page-info center">
+        <h3 class="page-info-title">NEW ARRIVALS </h3>
+        <div class="page-info-nav">
+            <nav class="breadcrumb">
+                <a class="breadcrumb-link" href="index.html"> HOME</a>
+                <a class="breadcrumb-link" href="#"> MEN</a>
+                <a class="breadcrumb-link" href="#"> NEW ARRIVALS </a>
+            </nav>
+        </div>
+    </section>
+    <section class="slider">
+
+        <button class="slider-btn slider-btn-left"><i class="fas fa-chevron-left"></i></button>
+        <img class="slider-img" src="images/slider.png" alt="women">
+        <button class="slider-btn slider-btn-right"><i class="fas fa-chevron-right"></i></button>
+
+
+
+    </section>
+    <section class="extra_block center">
+        <div class="extra_block-content">
+            <h2 class="extra_block-name">WOMEN COLLECTION</h2>
+            <hr class="extra_block-line">
+            <h5 class="extra_block-title">MOSCHINO CHEAP AND CHIC</h5>
+            <p class="extra_block-subtitle">Compellingly actualize fully researched processes before proactive
+                outsourcing.
+            <p class="extra_block-subtitle">Progressively syndicate collaborative architectures before cutting-edge
+                services.Completely </p>
+            <p class="extra_block-subtitle">visualize parallel core competencies rather than exceptional portals. </p>
+            </p>
+            <span class="extra_block-price">$561</span>
+            <hr class="extra_block-dline">
+            <div class="selecting">
+                <details class="selecting-details">
+                    <summary>CHOOSE COLOR <img class="selecting-arrow" src="images/sort.png" alt="photo"> </summary>
+                </details>
+                <details class="selecting-details">
+                    <summary class="selecting-summary">CHOOSE SIZE <img class="selecting-arrow" src="images/sort.png"
+                            alt="photo">
+                    </summary>
+                </details>
+                <details class="selecting-details">
+                    <summary>QUANTITY<img class="selecting-arrow" src="images/sort.png" alt="photo"> </summary>
+
+                </details>
+            </div>
+            <div class="add-cart">
+                <div class="add-cart-bttn">
+                    <img class="add-cart-pic" alt="cart" src="images/cartpink.png">
+                    <a class="add-click" href="#">Add to Cart</a>
                 </div>
-            </div>    
-        </section>
-
-        <section class="slider">
-           
-              
-        </section>
-
-
-        <section class="section extra_block">
-            <div class="extra_block-wrap"> 
-                 <h2 class="extra_block-name">WOMEN COLLECTION</h2>
-                 <hr class="border">
-                <h5 class="extra_block-title">MOSCHINO CHEAP AND CHIC</h5><br>
-                <p class="extra_block-subtitle">Compellingly actualize fully researched processes before proactive outsourcing.<br>
-                     Progressively syndicate collaborative architectures before cutting-edge services. 
-                     Completely<br> visualize parallel core competencies rather than exceptional portals. </p><br>
-                 <span class="extra_block-price">$561</span>
             </div>
-            <hr class="divider-block">
-            <div class="block_cart">
-                    <h2 class="sort1">CHOOSE COLOR </h2>
-                    <a href="#"><img class="sort_img2" src="img/Vector.png" alt="filter"></a>
-                    <h2 class="sort2">CHOOSE SIZE   </h2>
-                    <a href="#"><img class="sort_img2" src="img/Vector.png" alt="filter"></a>
-                    <h2 class="sort3">QUANTITY </h2>
-                    <a href="#"><img class="sort_img2" src="img/Vector.png" alt="filter"></a>
-            </div>
-            <div class="wrap addCart-wrap">
-                <div class="cartBttn">
-                    <img class="cartB" alt="cart" src="img/cart.png">
-                    <a class="bttn" href="#">Add to Cart</a>
+        </div>
+        </div>
+    </section>
+    <section class="product-box center">
+        <div class="product-box_content">
+            <div class="products">
+                <a href="#"><img class="products_img" src="images/pic4.png" alt="photo"></a>
+                <div class="products_content">
+                    <a href="#" class="products_name">ELLERY X M'O CAPSULE</a>
+                    <p class="products_text">Known for her sculptural takes on traditional tailoring, Australian arbiter
+                        of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <div class="products_price">$52.00</div>
+                    <a href="#" class="products_add">Add to Cart</a>
                 </div>
-           </div>
-
-        </section>
-
-        
-           
-        <section class="section section-item">
-            <div class="section-wrapper">
-            
-                <div class="section-item-card">
-                    <img src="img/Image-1.png" alt="man">
-                    <h5 class="section-item-card-title">ELLERY X M'O CAPSULE</h5><br>
-                     <p class="section-item-card-subtitle">Known for her sculptural takes on traditional 
-                         tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p><br>
-                         <span class="section-item-price">$52.00</span>
-                 </div>
-
-                 <video width="300" height="600" controls>
-                     <source src="video/video.mp4.MP4">
-
-                 </video>
-    
-                
-
-                <div class="section-item-card">
-                    <img src="img/Image-3.png" alt="image3">
-                    <h5 class="section-item-card-title">ELLERY X M'O CAPSULE</h5><br>
-                     <p class="section-item-card-subtitle">Known for her sculptural takes on traditional 
-                         tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p><br>
-                         <span class="section-item-price">$52.00</span>  
+            </div>
+            <div class="products">
+                <a href="#"><img class="products_img" src="images/pic3.png" alt="photo"></a>
+                <div class="products_content">
+                    <a href="#" class="products_name">ELLERY X M'O CAPSULE</a>
+                    <p class="products_text">Known for her sculptural takes on traditional tailoring, Australian arbiter
+                        of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <div class="products_price">$52.00</div>
+                    <a href="#" class="products_add">Add to Cart</a>
                 </div>
-                
             </div>
-        </section> 
-
-
-    <section class="feedback">
-        <div class="row">
-            <div class="feedback-left">
-                <img class="fb-pic" src="img/Intersect.png" alt="foto">
-                <p class="fb-text">“Vestibulum quis porttitor dui! 
-                    Quisque viverra nunc mi,<span class="ftb-item"> a pulvinar purus condimentum“</span></p>
-            
+            <div class="products">
+                <a href="#"><img class="products_img" src="images/pic6.png" alt="photo"></a>
+                <div class="products_content">
+                    <a href="#" class="products_name">ELLERY X M'O CAPSULE</a>
+                    <p class="products_text">Known for her sculptural takes on traditional tailoring, Australian arbiter
+                        of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <div class="products_price">$52.00</div>
+                    <a href="#" class="products_add">Add to Cart</a>
+                </div>
             </div>
 
-            <div class="feedback-right">
+    </section>
+    <section class="subscribe center">
+        <div class="subscribe__left">
+            <img src="images/subsphoto.png" alt="photo">
+            <p class="subscribe__text">“Vestibulum quis porttitor dui! Quisque<br> viverra nunc mi, a pulvinar purus<br>
+                condimentum“</p>
+        </div>
+        <div class="subscribe__right">
+            <h3 class="subscribe__heading">SUBSCRIBE</h3>
+            <p class="subscribe__promotion">FOR OUR NEWLETTER AND PROMOTION</p>
+            <form action="">
+                <input class="subscribe__input" type="email" placeholder="Enter Your Email"><button
+                    class="subscribe__button">Subscribe</button>
+            </form>
+        </div>
 
-                <form class="subscribe" action="#">
-                    <h5 class="sbs-text">
-                        <span class="sbs-f"> SUBSCRIBE</span><br>
-                        <span class="sbs-s">FOR OUR NEWLETTER AND PROMOTION</span>
-                    </h5>
-                    <input class="sbs-field" type="email" placeholder="Enter Your Email">
-                    <input class="sbs-btn" type="submit" value="subscribe"> 
-                </form>
-            
-            </div>
+    </section>
+    <section class="footer center">
+        <div class="footer-left">
+            <p class="rights">© 2021 Brand All Rights Reserved.</p>
+        </div>
+        <div class="footer-right">
+            <a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram-square"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-pinterest-square"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter-square"></i></a>
         </div>
     </section>
 
-    <section class="footer">
-        <div class="wrap footer-wrap">
-            <div class="footer-left">
-                <p class="rights">© 2021  Brand  All Rights Reserved.</p>
-                
-            </div>
-            <div class="footer-right">
-                
-                    <a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-instagram-square"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-pinterest-square"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-twitter-square"></i></a>
-                    
-        
-                   
-            </div>
-        </div>    
-    </section>
 
+<script src="script.js"></script>
 </body>
+
 </html>
