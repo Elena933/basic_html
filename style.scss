@@ -1163,21 +1163,138 @@ summary::-webkit-details-marker {
     }
 }
 
+
 /* tablet */
-@media (max-width: 768px) {
-    .center {
-        max-width: 768px;
+@media (min-width: 760px) and  (max-width: 1180px) {
+    
+    .subscribe  {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 140px;
     }
-    .left_block {
-       width: 734px;;
+
+    .products {
+        padding-right: 16px;
+    }
+    .product-box_content {
+        justify-content: center;
+    }
+    .carts_block {
+        flex-direction: column;
     }
     .all_right {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
     }
-
+    
+    .block_btn {
+        justify-content: center;
+    }
+    .right_block_shpn {
+        margin-left: 15px;
+    }
+    .all_right {
+        padding-bottom: 146px;
+    }
+    .advt-logos {
+        flex-direction: column;
+        padding-top: 50px;
+        height: 610px;
+    }
+    .promo__text {
+        padding-left: 80px;
+    }
+    .registration__blocks {
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+    .close {
+        margin-left: 280px;
+    }
+    .block_btn {
+        justify-content: space-evenly;
+    }
+    
 }
+  /*mobile*/
+    @media (min-width: 320px) and (max-width: 600px) {
+    .center {
+        width: 400px;;
+    }
+    .slider-img {
+        width: 320px;
+    }
+    .page-info {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 46px;
+    }
+    .subscribe {
+        flex-direction: column;
+        padding-bottom: 109px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 26px;
+    }
+    .extra_block-subtitle {
+        font-size: 14px;
+    }
+    .selecting-details {
+        font-size: 10px;
+    }
+    .registration__blocks {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .check_title {
+        font-size: 16px;
+    }
+    .check_describe {
+        font-size: 16px;
+    }
+   .offers_list {
+       font-size: 16px;
+   }
+   .right-side {
+       margin-bottom: 109px;
+   }
+   .categories {
+       flex-direction: column;
+   }
+   .promo__img {
+       visibility: hidden;
+   }
+   .promo__heading {
+       font-size: 37px;
+   }
+   .promo__info {
+       font-size: 24px;
+   }
+   .promo__select {
+       font-size: 24px;
+   }
+   .promo {
+       width: 400px;
+   }
+   
   
+    
+}
+ 
+ 
+  
+ 
+  
+ 
+  
+ 
+
+
+
  
  
   
